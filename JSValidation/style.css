@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+form {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: aquamarine;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#uname {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#email {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#mobile_no {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#name {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#password {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#c_password {
+    border-radius: 8px;
+    background-color: aliceblue;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+}
+
+#submit {
+    margin: 5px 25px;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+}

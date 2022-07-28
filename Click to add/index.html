@@ -1,0 +1,34 @@
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+    var count=0;
+    var countitem = 1;
+
+    function Click(){
+        ShowDiv("Item"+" "+ countitem);
+    }
+
+    function ShowDiv(val) {
+        countitem++;
+        let x = document.createElement("div");
+        x.textContent=val
+        //var x =  document.createElement("div");
+        //x.innerHTML="Item";
+        //var y = document.getElementById("myDiv");
+        //x.append("y");
+        document.getElementById("myDiv").appendChild(x);
+        count++;
+        document.getElementById("click").innerHTML=count;
+    }
+    </script>
+    </head>
+    
+    <body>
+        <button type="button" id="btn" onclick="Click()" name="button">Add Item</button>
+        <p id="box">Total Items: <a id="click">0</a></p>
+        <div id="myDiv"></div>
+    </body>
+</html>
